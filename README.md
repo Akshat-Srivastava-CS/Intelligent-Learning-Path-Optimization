@@ -2,7 +2,7 @@
 
 ## DSA Research Project
 
-### Project Overview
+### Project Report [Month-I]
 
 This project focuses on developing an intelligent learning path optimization platform using Data Structures and Algorithms.
 
@@ -24,3 +24,72 @@ Research papers related to learning path recommendation, optimization, and intel
 - Graphs
 - Learning Path Recommendation
 - Learning Path Optimization
+
+### Project Report [Month-II]
+
+# 🎓 Intelligent Learning Path Optimizer
+
+
+
+**A Data Structures and Algorithms (DSA) powered platform to optimize semester study sequences and manage time efficiently for B.Tech students.**
+
+
+
+### 🌐 Live Working Prototype
+
+**Test the platform live here:** [Click to open the Web App](https://intelligent-learning-path-optimization-lnq47ffa9qhiwgwunaobus.streamlit.app/)
+
+
+
+---
+
+
+
+## 📌 Problem Statement
+
+Students often struggle to find the most efficient study sequence when preparing for exams. Topics have prerequisites, and different topics require different study times and yield different marks (importance). This platform solves two major problems:
+
+1. Finding the fastest valid study route to master an advanced topic.
+
+2. Maximizing the learning output when a student has a strict time limit before an exam (e.g., only 8 hours left).
+
+
+
+## 🚀 DSA Concepts Implemented
+
+This project bridges graph theory and dynamic programming to generate optimized study plans:
+
+
+
+* **Weighted Directed Graphs:** Learning topics are represented as nodes, prerequisite relationships as directed edges, and estimated study hours as edge weights.
+
+* **Dijkstra's Algorithm (Shortest Path):** Calculates the fastest learning route to reach a target topic by finding the minimum total study time across prerequisites.
+
+* **0/1 Knapsack Problem (Dynamic Programming):** Acts as the "Exam Cram Optimizer." It takes the maximum hours a student has left and selects the best combination of topics to maximize the total "importance score" without exceeding the time limit.
+
+
+
+## 📚 Syllabus Data (Semester 3)
+
+The prototype features realistic syllabus data and prerequisite mappings for 5 core subjects:
+
+* **DSA-II:** Trees, Graph Traversals, Shortest Paths, Dynamic Programming
+
+* **Operating Systems:** Process Management, CPU Scheduling, Deadlocks
+
+* **Java Programming:** OOPs, Exception Handling, Multithreading
+
+* **Artificial Intelligence:** Search Algorithms (Uninformed, Heuristic)
+
+* **Computer Architecture (CAPP):** Instruction Sets, Pipelining, Cache Memory
+
+
+
+## 💻 Tech Stack
+
+* **Language:** Python 3
+
+* **Frontend/Deployment:** Streamlit (Community Cloud)
+
+* **Core Libraries:** `heapq`, `collections`
+
