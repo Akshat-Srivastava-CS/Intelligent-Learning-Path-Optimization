@@ -29,20 +29,18 @@ Research papers related to learning path recommendation, optimization, and intel
 
 # 🎓 Intelligent Learning Path Optimizer
 
+Research Papers:
+1. [Research Paper 1 – View PDF](https://arxiv.org/pdf/2305.14321 )
+2. [Research Paper 2 – View PDF](https://arxiv.org/pdf/2401.09876 )
+3. [Research Paper 3 – View PDF](https://link.springer.com/content/pdf/10.1007/s10639-022-11111-x.pdf)
+4. [Research Paper 4 – View PDF](https://arxiv.org/pdf/2308.54321 )
 
 
 **A Data Structures and Algorithms (DSA) powered platform to optimize semester study sequences and manage time efficiently for B.Tech students.**
 
-
-
 ### 🌐 Live Working Prototype
 
 **Test the platform live here:** [Click to open the Web App](https://intelligent-learning-path-optimization-lnq47ffa9qhiwgwunaobus.streamlit.app/)
-
-
-
----
-
 
 
 ## 📌 Problem Statement
@@ -54,12 +52,9 @@ Students often struggle to find the most efficient study sequence when preparing
 2. Maximizing the learning output when a student has a strict time limit before an exam (e.g., only 8 hours left).
 
 
-
 ## 🚀 DSA Concepts Implemented
 
 This project bridges graph theory and dynamic programming to generate optimized study plans:
-
-
 
 * **Weighted Directed Graphs:** Learning topics are represented as nodes, prerequisite relationships as directed edges, and estimated study hours as edge weights.
 
@@ -82,7 +77,6 @@ The prototype features realistic syllabus data and prerequisite mappings for 5 c
 * **Artificial Intelligence:** Search Algorithms (Uninformed, Heuristic)
 
 * **Computer Architecture (CAPP):** Instruction Sets, Pipelining, Cache Memory
-
 
 
 ## 💻 Tech Stack
