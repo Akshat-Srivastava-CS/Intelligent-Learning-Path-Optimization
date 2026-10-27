@@ -85,5 +85,51 @@ The prototype features realistic syllabus data and prerequisite mappings for 5 c
 
 * **Frontend/Deployment:** Streamlit (Community Cloud)
 
+
+## 🚀 DSA Modules Implemented (Semester 3 Curriculum)
+
+This MVP strictly maps to the 5 modules of the DSA-II syllabus:
+
+
+1. **Trees & Heaps:** A **Binary Min-Heap** is used as the priority queue inside Dijkstra's algorithm to extract the lowest-time topic in `O(log V)` time.
+
+2. **Graphs:** The B.Tech Sem-3 syllabus is modeled as a **Directed Acyclic Graph (DAG)** using an **Adjacency List**. **Dijkstra's Algorithm** calculates the absolute fastest study route through prerequisite chains.
+
+3. **Dynamic Programming:** The "Exam Cram Optimizer" uses the **0/1 Knapsack** optimal substructure to maximize learning scores within a strict hour limit `O(n × W)`.
+
+4. **Backtracking & Branch/Bound:** Evaluated for navigating multiple mandatory syllabus topics (similar to TSP constraints), successfully pruning paths that exceed maximum time.
+
+5. **Advanced Data Structures:** Analyzed **B-Trees** for minimizing disk I/O for future university-wide graph database scaling, and **Fibonacci Heaps** for `O(1)` decrease-key operations.
+
+
+
+## 📁 Repository Structure
+
+*   📂 **`Code/`** - Contains the Python `app.py` and Streamlit deployment files.
+
+*   📂 **`Documentation/`** - Contains the Monthly PBL Progress Reports and the Comprehensive Project Documentation.
+
+*   📂 **`Research_Papers/`** - Contains the Gap Analysis and reference PDFs.
+
+*   📂 **`Assets/`** - Screenshots of the deployed MVP.
+
+
+
+## 💻 How to Run Locally
+
+1. Clone the repository: `git clone https://github.com/YourUsername/Intelligent-Learning-Path-Optimizer.git`
+
+2. Navigate to the code directory: `cd Intelligent-Learning-Path-Optimizer/Code`
+
+3. Install dependencies: `pip install -r requirements.txt`
+
+4. Run the app: `streamlit run app.py`
+
+
+
+---
+
+*Developed by Akshat Srivastava for the B.Tech CSE Project-Based Learning (PBL) curriculum.*
+
 * **Core Libraries:** `heapq`, `collections`
 
